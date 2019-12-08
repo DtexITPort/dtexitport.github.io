@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+
+<html lang="ru">
+    <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="" name=""/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="max-age=2592000, must-revalidate" http-equiv="Cache-Control"/>
+    <meta content="Портфолио Front-end разработчика" name="description">
+    <meta content="Front-end, developer, html, css, js, javascript" name="keywords"/>
+    <title>Dtexit Портфолио</title>
+    <link href="10_main.css" rel="stylesheet"/>
+    <link href="icon.css" rel="stylesheet"/>
+    </meta>
+</head>
+<body>
+<div class="pre-loader">
+<div class="pre-body">
+<div class="pre-circle1">
+<div class="pre-circle2">
+<div class="pre-circle3"></div>
+</div>
+</div>
+</div>
+</div>
+<header class="header" id="main">
+<nav class="navbar">
+<div class="container">
+<div class="navbar-head">
+<a href="#main">
+<div class="navbar-logo">
+<span class="nav-label">DEV</span>
+<span class="text">
+<span class="line">
+<b class="tag">&lt;</b>
+<span>/line</span>
+<span class="tag">&gt;</span>
+</span>
+<span class="nick">DTEXIT</span>
+</span>
+</div>
+</a>
+<button aria-label="Menu" class="navbar-toggle"><i class="icon-bars"></i></button>
+</div>
+<ul class="navbar-right">
+<li class="active-link"><a href="#main"> Главная </a></li>
+<li><a href="#about"> Обо мне </a></li>
+<li><a href="#portfolio"> Портфолио </a></li>
+<li><a href="#contacts"> Контакты </a></li>
+</ul>
+</div>
+</nav>
+<div class="container">
+<div class="header-block">
+<div class="left">
+<h1 class="header-title"> full-stack developer </h1>
+<a aria-label="VK" class="btn" href="https://vk.com/ripprince" rel="noopener" target="_blank"><i class="vk-social-network-logo.svg"></i></a>
+<a aria-label="GitHub" class="btn" href="#" rel="noopener" target="_blank"><i class="icon-github-altt"></i></a>
+<img alt="header image" class="header-img" src="header-img.png"/></div></div></div></header></body></html>
+<a aria-label="CodePen" class="btn" href="#" rel="noopener" target="_blank"><i class="icon-codepens"></i></a> 
+<!-- Это надо будет позже изменить -->
+<hr/>
+<div class="block" id="about">
+<div class="container">
+<div class="about">
+<h2> Обо мне </h2>
+<p>Меня зовут Даниил, мне <span id="years">16 лет</span>. Я full-stack разработчик, очень увлечен и предан своей работе. Заинтересовался разработкой сайтов в 2018 году, но уже создаю не плохие проекты.</p>
+</div>
+<div class="skills">
+<h2>Навыки</h2>
+<div class="bar">
+<p>HTML5</p>
+<div class="bar-progress html" data-progress="84%"></div>
+</div>
+<div class="bar">
+<p>CSS/SCSS</p>
+<div class="bar-progress css" data-progress="88%"></div>
+</div>
+<div class="bar">
+<p>JS/JQuery</p>
+<div class="bar-progress js" data-progress="47%"></div>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<div class="block" id="portfolio">
+<div class="container">
+<h2> Портфолио </h2>
+<div class="works">
+<!-- <div class="work">
+<img alt="M0ne0N.cf" src="m0ne0n.jpg"/>
+<div class="work-hover">
+<h4>M0ne0N</h4>
+<p>HTML, SCSS, JQuery</p>
+<a class="btn btn-outline white" href="http://m0ne0n.cf/" rel="noopener" target="_blank"> Открыть </a>
+<a class="btn btn-outline white" href="https://demo.devline.cf/m0ne0n.cf/" rel="noopener" target="_blank"> Копия </a>
+</div>
+</div> -->
+<div class="work">
+<img alt="group954.info" src="group954.png"/>
+<div class="work-hover">
+<h4>GROUP 954</h4>
+<p>HTML, SASS, JS, CSS</p>
+<a class="btn btn-outline white" href="https://group954.github.io/" rel="noopener" target="_blank"> Открыть </a><!-- 
+<a class="btn btn-outline white" href="https://demo.devline.cf/nethunter.info/" rel="noopener" target="_blank"> Копия </a> -->
+</div>
+</div>
+<!-- <div class="work">
+<img alt="Первый сайт" src="sun.jpg"/>
+<div class="work-hover">
+<h4>Первый сайт</h4>
+<p>HTML, bootstrap</p>
+<a class="btn btn-outline white" disabled="" href="#" rel="noopener" target="_blank"> Открыть </a>
+<a class="btn btn-outline white" href="https://demo.devline.cf/solar_system/" rel="noopener" target="_blank"> Копия </a>
+</div>
+</div> -->
+</div>
+</div>
+</div>
+<hr/>
+<div class="block" id="contacts">
+<div class="container">
+<h2> Контакты </h2>
+<div class="contacts">
+<div class="links">
+<h5>Можете связаться со мной</h5>
+<p><b>VK:</b> <span><a href="https://vk.com/ripprince" rel="noopener" target="_blank">ripprince</a></span></p>
+<!-- <p><b>ПОЧТА:</b> <span><a href="https://mail.ru/" target="_blank"><span class="__cf_email__" data-cfemail="214c404d48404f4249484a0f4544574d484f4461464c40484d0f424e4c">[email protected]</span></a></span></p> -->
+</div>
+<div class="form">
+<h5>Или заполнить форму</h5>
+<form action="/mail" id="sendMail" method="post">
+<div class="input">
+<input id="name" name="name" required="" type="text"/>
+<span class="border"></span>
+<label class="label" for="name">Ваше имя</label>
+</div>
+<div class="input">
+<input id="email" name="email" required="" type="text"/>
+<span class="border"></span>
+<label class="label" for="email">Ваш E-mail</label>
+</div>
+<div class="input">
+<textarea id="message" name="message" required=""></textarea>
+<span class="border"></span>
+<label class="label" for="message">Ваше сообщение</label>
+</div>
+<button class="btn black">Отправить</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+<hr/>
+<footer>
+<div class="container">
+<p>© 2019 «DtexIT»</p>
+</div>
+</footer>
+<!-- <div class="menu-block">
+<a aria-label="Menu" class="menu-btn" href="#">
+<i class="icon-cog"></i>
+</a>
+<nav class="menu">
+<a aria-label="Theme" href="#" id="theme"><i class="icon-theme"></i></a>
+<a aria-label="Up" href="#main"><i class="icon-arrow-up"></i></a>
+<a aria-label="Music" href="#"><i class="icon-music" ></i></a>
+</nav>
+</div> -->
+<script data-cfasync="false" src="2_email-decode.min.js"></script><script src="jquery-3.4.1.js"></script>
+<script src="preloader.js"></script>
+<script src="10_main.js"></script>
