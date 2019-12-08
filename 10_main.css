@@ -335,7 +335,7 @@ hr {
     background-color: transparent;
     border: none;
     font-size: 24px;
-    margin: 5px; }
+    margin: 5px;}
     @media (min-width: 768.99px) {
       .navbar-toggle {
         display: none; } }
@@ -709,14 +709,14 @@ button.btn {
 
 @-webkit-keyframes inputHighlighter {
   from {
-    background: #673ab7; }
+    background: pink; }
   to {
     width: 0;
     background: transparent; } }
 
 @keyframes inputHighlighter {
   from {
-    background: #673ab7; }
+    background: pink; }
   to {
     width: 0;
     background: transparent; } }
