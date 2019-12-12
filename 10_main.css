@@ -559,13 +559,21 @@ button.btn {
 
 .menu-block {
   position: fixed;
+  border: 3px solid purple;
+  border-radius: 50%;
   right: 20px;
-  bottom: 20px;
-  z-index: 88; }
-
+  bottom: 21px;
+  z-index: 88;
+  /* background-color: black; */
+  height: 46px;
+}
+.menu-block img {
+  width: 50%;
+}
 .menu-nav {
   background-color: #fff;
-  height: 50px; }
+  height: 500px;
+}
 
 .menu-nav__link {
   display: inline-block;
@@ -602,7 +610,7 @@ button.btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
+  background-color: white;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -632,12 +640,15 @@ button.btn {
 .menu_active a:nth-child(1) {
   -webkit-transform: translate(-200%, 0%);
       -ms-transform: translate(-200%, 0%);
-          transform: translate(-200%, 0%); }
+          transform: translate(-200%, 0%);
+          background-color: white;
+        background-image: url(crescent-moon.svg);}
 
 .menu_active a:nth-child(2) {
   -webkit-transform: translate(-150%, -150%);
       -ms-transform: translate(-150%, -150%);
-          transform: translate(-150%, -150%); }
+          transform: translate(-150%, -150%);
+          background-color: purple; }
 
 .menu_active a:nth-child(3) {
   -webkit-transform: translate(0%, -200%);
@@ -802,7 +813,7 @@ body.dark {
   body.dark .menu-nav {
     background-color: #202124; }
   body.dark .menu a {
-    background-color: #202124; }
+    background-color: rgba(255, 255, 255, 0); }
   body.dark h1, body.dark h2, body.dark h3, body.dark h4, body.dark h5, body.dark h6, body.dark p, body.dark a, body.dark ul, body.dark span, body.dark button {
     color: #fff; }
   body.dark hr {
@@ -817,7 +828,7 @@ body.dark {
   body.dark .bar {
     background: #383a3f; }
   body.dark .icon-theme:before {
-    content: "\f186"; }
+    content: "\f186";}
   body.dark .contacts .links a:hover:after {
     background-color: #fff; }
   body.dark .navbar-right li a.active-link:after, body.dark .navbar-right li a:hover:after {
