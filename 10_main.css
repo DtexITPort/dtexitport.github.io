@@ -394,7 +394,8 @@ hr {
 .work {
   position: relative;
   overflow: hidden;
-  border-radius: 5px; }
+  border-radius: 5px;
+  border: 4px solid purple;}
   .work img {
     width: 100%;
     z-index: 3;
